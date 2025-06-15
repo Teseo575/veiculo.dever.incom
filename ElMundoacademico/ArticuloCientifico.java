@@ -5,7 +5,7 @@ public class ArticuloCientifico extends Publicacion{
 	
 		private int cantCientificos;
 
-		public ArticuloCientifico(String nombre, int fecha, boolean digital, int canPaginas, int cantCientificos) {
+		public ArticuloCientifico(String nombre, int fecha, String digital, int canPaginas, int cantCientificos) {
 			super(nombre, fecha, digital, canPaginas);
 			this.cantCientificos = cantCientificos;
 		}

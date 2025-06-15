@@ -20,7 +20,7 @@ public class Revista extends Publicacion{
 		Fotografo = fotografo;
 	}
 
-	public Revista(String nombre, int fecha, boolean digital, int canPaginas, String ilustrador, String fotografo) {
+	public Revista(String nombre, int fecha, String digital, int canPaginas, String ilustrador, String fotografo) {
 		super(nombre, fecha, digital, canPaginas);
 		this.ilustrador = ilustrador;
 		Fotografo = fotografo;

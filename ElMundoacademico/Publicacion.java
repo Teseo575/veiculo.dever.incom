@@ -3,7 +3,7 @@ package ElMundoacademico;
 public class Publicacion {
 private String nombre;
 private int fecha;
-private boolean digital;
+private String digital;
 private int canPaginas;
 public String getNombre() {
 	return nombre;
@@ -19,10 +19,10 @@ public int getFecha() {
 public void setFecha(int fecha) {
 	this.fecha = fecha;
 }
-public boolean isDigital() {
+public String isDigital() {
 	return digital;
 }
-public void setDigital(boolean digital) {
+public void setDigital(String digital) {
 	this.digital = digital;
 }
 public int getCanPaginas() {
@@ -31,7 +31,7 @@ public int getCanPaginas() {
 public void setCanPaginas(int canPaginas) {
 	this.canPaginas = canPaginas;
 }
-public Publicacion(String nombre,int fecha, boolean digital, int canPaginas) {
+public Publicacion(String nombre,int fecha, String digital, int canPaginas) {
 	this.fecha = fecha;
 	this.digital = digital;
 	this.canPaginas = canPaginas;

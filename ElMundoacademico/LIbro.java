@@ -12,7 +12,7 @@ public class LIbro extends Publicacion {
 		this.tipo = tipo;
 	}
 
-	public LIbro(String nombre, int fecha, boolean digital, int canPaginas, String tipo) {
+	public LIbro(String nombre, int fecha, String digital, int canPaginas, String tipo) {
 		super(nombre, fecha, digital, canPaginas);
 		this.tipo = tipo;
 	}
